@@ -1,0 +1,19 @@
+.header {
+  text-align: center;
+}
+.img {
+  width: 290px;
+}
+.header nav {
+  background-color: black;
+}
+.header nav a {
+  text-decoration: none;
+  padding: 10px;
+  line-height: 50px;
+  font-size: 20px;
+  color: aliceblue;
+}
+.header > nav > a:hover {
+  background-color: blue;
+}

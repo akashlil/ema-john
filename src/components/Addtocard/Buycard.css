@@ -1,0 +1,24 @@
+.add-to-cart {
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-btn {
+  background-color: rgb(247, 164, 105);
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.add-to-cart ul li {
+  padding: 5px;
+}
+.add-to-cart ul {
+  list-style: none;
+  padding: 10px 0px;
+  /* margin: 0; */
+}
+.card-btn:hover {
+  background-color: cornflowerblue;
+}

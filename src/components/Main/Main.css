@@ -1,0 +1,7 @@
+.conteaner {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.product-data {
+  border-right: 2px solid rgb(145, 140, 140);
+}

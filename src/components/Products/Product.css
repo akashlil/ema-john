@@ -1,0 +1,21 @@
+.product {
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid rgb(145, 140, 140);
+  margin-left: 20%;
+  padding: 20px;
+}
+.product-name {
+  color: rgb(55, 55, 247);
+  font-weight: 500;
+}
+.card-btn {
+  background-color: rgb(247, 164, 105);
+  border: none;
+  padding: 7px 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.card-btn:hover {
+  background-color: cornflowerblue;
+}
