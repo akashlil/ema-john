@@ -5,3 +5,12 @@
 .product-data {
   border-right: 2px solid rgb(145, 140, 140);
 }
+.search-btn {
+  width: 70%;
+  text-align: center;
+  margin: 20px 10%;
+  border: 2px solid slateblue;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+}

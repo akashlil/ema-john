@@ -2,10 +2,14 @@ import React from 'react';
 import "./Buycard.css"
 
 const Buycard = (props) => {
-    let price=0;
+    let price = 0;
+    let Qunitity = 0;
     for (const allproduct of props.cartAdd) {
-        price = price + allproduct.price;
+       const  productQunitity = !allproduct.qunitity ? 1 : allproduct.qunitity;
+        price =( price + allproduct.price) * productQunitity;
+        Qunitity = Qunitity + productQunitity;
     }
+
     let shipping = 50;
     if ( price > 200 ) {
         shipping=100
@@ -16,7 +20,7 @@ const Buycard = (props) => {
         <div className="add-to-cart">
             <div>
             <h1>Order Summary</h1>
-            <p>Items ordered:0</p>
+                <p>Items ordered: {Qunitity}</p>
             <ul>
                     <li>Items : $ {price.toFixed(2) }</li>
                     <li>Shipping & Handling : $ { shipping.toFixed(2)}</li>
